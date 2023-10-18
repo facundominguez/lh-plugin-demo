@@ -7,18 +7,12 @@ This repo demonstrates how to use [LiquidHaskell](https://github.com/ucsd-progsy
 - how to tell GHC to invoke the plugin
 - how to specify the relevant LH wrapper packages as dependencies
 
-[stack.yaml](stack.yaml) shows
+It only works with GHC 9.2.5.
 
-- how to point `stack` at the relevant LH repositories on **github**
+[stack.yaml](stack.yaml) shows how to point `stack` at the relevant LH packages on **hackage**.
 
-[stack/stack-9.0.2.yaml](stack/stack-9.0.2.yaml) shows
-
-- how to point `stack` at the relevant LH packages on **hackage**
-
-[cabal.project](cabal.project) shows
-
-- how to point `cabal` to the relevant LH repositories on **github**
-- only works with ghc-9.2.5
+If you want to use `cabal-install` there is no extra configuration
+required.
 
 ## GHCi Integration
 
